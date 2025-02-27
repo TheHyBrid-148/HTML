@@ -1,0 +1,16 @@
+Use this text file to update which files you are working on or are helping to work on
+This (at least) needs to be updated whenever there are changes to any file
+This acts as proof that I will send to Sir. Eric (if he needs any proof) :>
+
+Format:
+(Month/date) First and Last name initials - edited/helped on "state file" (# of lines; if can recall)
+
+---------------
+Ex:
+(Jan/31) JF - script.js (8 lines)
+
+(Feb/3) JB - helped with blog.html (20 lines)
+
+(Feb/5) KF - edited bootstrap.min.css
+---------------
+Start here:
