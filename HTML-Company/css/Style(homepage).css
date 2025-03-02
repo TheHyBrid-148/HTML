@@ -1,0 +1,44 @@
+.table-row {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    }
+    .table-row:hover {
+    background: rgba(255, 255, 255, 0.2);
+    }
+    
+    ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    ul li:last-child {
+    border-bottom: none;
+    }
+    
+    .table-header {
+        font-weight: bold;
+        background: linear-gradient(to right, #007bff, #0056b3);
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      /* for image carousel*/
+.carousel-inner img{
+    max-height: 450px; /* Reduce height */
+    object-fit: cover;
+    width: 100%;
+   }
+   .carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+  }
