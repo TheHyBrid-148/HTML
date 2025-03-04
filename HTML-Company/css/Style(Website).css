@@ -1,145 +1,161 @@
 body {
-  background-image: url("Background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  color: white;
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.85);
-  border: none;
-  transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: none;
+    transition: 0.3s;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
-  font-weight: bold;
-  transition: 0.3s;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  background: #007bff;
-  color: white;
-  border-radius: 5px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
 }
 
 .navbar-brand {
-  font-size: 22px;
-  font-weight: bold;
-  color: #ffffff !important;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff !important;
 }
 
 .container {
-  margin-top: 50px;
-  background: rgba(75, 71, 65, 0.8); 
-  padding: 30px 60px 90px 60px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+    background: rgba(75, 71, 65, 0.8); 
+    padding: 30px 60px 90px 60px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 img {
-  max-width: 100%; 
-  height: auto; 
-  display: block;
+    max-width: 100%; 
+    height: auto; 
+    display: block;
 }
 
 .full-width-logo {
-  width: 100%; /* Makes the logo stretch full width */
-  height: auto; /* Keeps aspect ratio */
+    width: 100%; /* Makes the logo stretch full width */
+    height: auto; /* Keeps aspect ratio */
 }
 
 footer p {
-  margin: 0;
+    margin: 0;
 }
 
 footer a {
-  color: #007bff;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
 }
 
 footer a:hover {
-  color: #0056b3;
+    color: #0056b3;
 }
 
 footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 20px;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .table-row {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 15px;
-  border-radius: 5px;
-  transition: 0.3s;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 .table-row:hover {
-  background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 ul li {
-  padding: 5px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 ul li:last-child {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 .table-header {
-  font-weight: bold;
-  background: linear-gradient(to right, #007bff, #0056b3);
-  color: white;
-  padding: 15px;
-  border-radius: 5px;
-  text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .carousel-inner img {
-  max-height: 450px; /* Reduce height */
-  object-fit: cover;
-  width: 100%;
+    max-height: 450px; /* Reduce height */
+    object-fit: cover;
+    width: 100%;
 }
 
 .carousel-caption {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 10px;
-  border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .card {
-  background: rgba(75, 71, 65, 0.8);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-  color: white;
-  margin-top: 20px;
+    background: rgba(75, 71, 65, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    margin-top: 20px;
 }
 
 .card-title {
-  font-size: 1.5em;
-  font-weight: bold;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .card-text {
-  font-size: 1.2em;
+    font-size: 1.2em;
+}
+
+.mb-4 {
+    margin-bottom: 20px !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.align-items-stretch {
+    align-items: stretch !important;
+}
+
+#facilitym{
+  margin-top: -33.5vh !important; /* I cannot get this thing to allign with the cards */
 }
