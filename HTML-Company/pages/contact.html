@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>ALL4ONE Industrial Engineering</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="../css/Style(Website).css">
 </head>
+
 <body>
+  <div class="container">
+    <div class="container-fluid text-center">
+      <img src="../images/Logo.jpg" alt="Logo" class="img-responsive full-width-logo">
+    </div>
     
+    <!-- below is nav bar-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!-- Toggle button for mobile -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="Homepage.html">ALL4ONE</a> <!-- Home Page -->
+        </div>
+    
+        <!-- Collapsible Menu -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="About us.html">About us</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Mechanical</a></li>
+                <li><a href="#">Electro Mechanical</a></li>
+                <li><a href="#">Instrumentation</a></li>
+                <li><a href="#">Electrical</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav><!--end of nav bar-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Contact us</h3>
+          <form>
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+            </div>
+            <div class="form-group">
+              <label for="contactNumber">Contact Number</label>
+              <input type="text" class="form-control" id="contactNumber" placeholder="Enter your contact number">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Our Location</h3>
+              <p class="card-text">Location: Mandaluyong City, Metro Manila</p>
+              <p class="card-text">Number: +63992-007-3905</p>
+              <p class="card-text">E-Mail: sales.all4one@gmail.com</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30890.053492088784!2d121.01790558701293!3d14.584444130782702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c835c77b9b79%3A0xdc4947c8b9d237f8!2sMandaluyong%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1741065803137!5m2!1sen!2sph" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--end of container-->
+  </div>
+
+  <footer>
+    <p>Developers: Joel Vincent Balagot, Jean Luc Figueras, Addison Halanes</p>
+  </footer>
 </body>
 </html>
