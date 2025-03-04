@@ -1,3 +1,0 @@
-fonts is an optional folder
-
-used for custom fonts
